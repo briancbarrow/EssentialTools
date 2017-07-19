@@ -23,6 +23,7 @@ namespace EssentialTools.Tests
 
             // assert
             Assert.AreEqual(total * 0.9m, discountedTotal, "These are not equal");
+        }
 
             [TestMethod]
         public void Discount_Between_10_And_100()
